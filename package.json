@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@joaogabrielf/eslint-config": "^3.0.0",
+    "@joaogabrielf/react": "^3.1.0",
+    "@joaogabrielf/tokens": "^2.0.1",
     "@types/node": "20.4.0",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
@@ -21,5 +24,8 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.3.0"
   }
 }

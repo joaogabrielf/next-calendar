@@ -1,3 +1,9 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "@joaogabrielf/eslint-config",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "no-undef": "off"
+  }
 }
